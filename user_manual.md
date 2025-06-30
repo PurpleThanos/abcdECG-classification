@@ -1,5 +1,4 @@
 # 📝 User Manual – ECG Classification Web App
-
 This is a simple guide to help you run, use, and troubleshoot the ECG classification web app built with Streamlit and a trained CNN model.
 
 ---
@@ -40,16 +39,16 @@ This project uses a dataset from Kaggle:
     ├── README.md
     ├── user_manual.md
     ├── train/
-    │   ├── Abnormal/
     │   ├── Myocardial/
+    │   ├── Abnormal/
+    │   ├── History of MI/
     │   └── Normal/
     ├── test/
-    │   ├── Abnormal/
     │   ├── Myocardial/
+    │   ├── Abnormal/
+    │   ├── History of MI/
     │   └── Normal/
     ```
-
-> ⚠️ **Important:** Do not upload the dataset to GitHub. Just reference the Kaggle link above.
 
 ---
 
@@ -67,16 +66,16 @@ This project uses a dataset from Kaggle:
 ## ✅ Prediction Output
 
 After you upload an image, the app will display:
- `Predicted Class: Normal / Abnormal / Myocardial `
+ `Predicted Class: Myocardial / Abnormal Heatbeat / History of MI / Normal `
 
-You may also see an option to download a report, if enabled.
+You will also see an option to download a report.
 
 ---
 
-## 🧾 Generating a PDF Report (Optional Feature)
+## 🧾 Generating a PDF Report 
 
 If the app includes this feature, you will see a **Download Report** button.  
-The PDF may include:
+The PDF include:
 - Image preview
 - Prediction label
 - Timestamp
