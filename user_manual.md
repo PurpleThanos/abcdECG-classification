@@ -3,24 +3,6 @@ This is a simple guide to help you run, use, and troubleshoot the ECG classifica
 
 ---
 
-## ⚙️ How to Run the App
-
-1. **Install dependencies** (Python 3.10+ recommended):
-
-    ```
-    pip install -r requirements.txt
-    ```
-
-2. **Run the app** using Streamlit:
-
-    ```
-    streamlit run app.py
-    ```
-
-3. A browser will automatically open. If not, visit `http://localhost:8501`.
-
----
-
 ## 📂 Dataset Setup (Required Before Running)
 
 This project uses a dataset from Kaggle:  
@@ -52,6 +34,24 @@ This project uses a dataset from Kaggle:
 
 ---
 
+## ⚙️ How to Run the App
+
+1. **Install dependencies** (Python 3.10+ recommended):
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+2. **Run the app** using Streamlit:
+
+    ```
+    streamlit run app.py
+    ```
+
+3. A browser will automatically open. If not, visit `http://localhost:8501`.
+
+---
+
 ## 📤 Uploading ECG Images
 
 1. On the app interface, click **“Browse files”** or drag-and-drop an ECG image.
@@ -74,7 +74,7 @@ You will also see an option to download a report.
 
 ## 🧾 Generating a PDF Report 
 
-If the app includes this feature, you will see a **Download Report** button.  
+You may download the PDF Report by pressing the **Download Report** button.  
 The PDF include:
 - Image preview
 - Prediction label
