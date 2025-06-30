@@ -28,6 +28,25 @@ The dataset used for training and testing is from Kaggle:
 
 **How to use it:**
 
-1. Download the dataset from Kaggle
-2. Extract it into your project directory with the following structure:
+1. Go to the Kaggle dataset link above.
+2. Download the dataset ZIP file (requires a Kaggle account).
+3. Extract the ZIP file.
+4. Copy the `train/` and `test/` folders into the root directory of this project.
+
+Your folder structure should now look like this:
+
+ecg-classification/
+├── app.py
+├── ecg_model.h5
+├── requirements.txt
+├── README.md
+├── user_manual.md
+├── train/
+│ ├── Abnormal/
+│ ├── Myocardial/
+│ └── Normal/
+├── test/
+│ ├── Abnormal/
+│ ├── Myocardial/
+│ └── Normal/
 
