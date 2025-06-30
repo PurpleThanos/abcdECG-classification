@@ -8,7 +8,7 @@ This is a deep learning web application that classifies ECG images into differen
 
 - Upload `.jpg` or `.png` ECG images
 - Predict heart conditions using a trained CNN model
-- (Optional) Generate a diagnosis PDF report
+- Generate a diagnosis PDF report
 - User-friendly Streamlit interface
 
 ---
