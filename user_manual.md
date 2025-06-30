@@ -66,9 +66,8 @@ This project uses a dataset from Kaggle:
 
 ## ✅ Prediction Output
 
-After you upload an image, the app will display:\
+After you upload an image, the app will display:
  `Predicted Class: Normal / Abnormal / Myocardial `
- \
 
 You may also see an option to download a report, if enabled.
 
