@@ -1,1 +1,25 @@
-<pre><code># Ignore Python cache __pycache__/ *.pyc # Ignore virtual environment folders env/ venv/ .venv/ # Ignore model and weights files *.h5 *.hdf5 *.ckpt *.pb # Ignore OS-specific files .DS_Store Thumbs.db # Ignore Streamlit cache .streamlit/ # Ignore local datasets train/ test/ </code></pre>
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders
+env/
+venv/
+.venv/
+
+# Ignore model and weights files
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore local datasets
+train/
+test/
