@@ -33,20 +33,5 @@ The dataset used for training and testing is from Kaggle:
 3. Extract the ZIP file.
 4. Copy the `train/` and `test/` folders into the root directory of this project.
 
-Your folder structure should now look like this:
-
-ecg-classification/
-├── app.py
-├── ecg_model.h5
-├── requirements.txt
-├── README.md
-├── user_manual.md
-├── train/
-│ ├── Abnormal/
-│ ├── Myocardial/
-│ └── Normal/
-├── test/
-│ ├── Abnormal/
-│ ├── Myocardial/
-│ └── Normal/
+<pre><code> Your folder structure should now look like this: ``` ecg-classification/ ├── app.py ├── ecg_model.h5 ├── requirements.txt ├── README.md ├── user_manual.md ├── train/ │ ├── Abnormal/ │ ├── Myocardial/ │ └── Normal/ ├── test/ │ ├── Abnormal/ │ ├── Myocardial/ │ └── Normal/ ``` </code></pre>
 
